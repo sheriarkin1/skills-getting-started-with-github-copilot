@@ -74,6 +74,34 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-list {
+  list-style-type: none; /* remove bullets */
+  padding-left: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.remove-participant {
+  cursor: pointer;
+  margin-left: 8px;
+  color: #c62828;
+  font-weight: bold;
+}
+
+.remove-participant:hover {
+  color: #a00000;
+}
+.participants-list li {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.no-participants {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 10px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
